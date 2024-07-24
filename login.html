@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- title -->
+    <title>Login</title>
+
+    <!-- favicon -->
+    <link rel="shortcut icon" type="image/png" href="assets/img/icon.png" />
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="assets/css/all.min.css" />
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css" />
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="assets/css/owl.carousel.css" />
+    <!-- magnific popup -->
+    <link rel="stylesheet" href="assets/css/magnific-popup.css" />
+    <!-- animate css -->
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <!-- mean menu css -->
+    <link rel="stylesheet" href="assets/css/meanmenu.min.css" />
+    <!-- main style -->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!-- responsive -->
+    <link rel="stylesheet" href="assets/css/responsive.css" />
+    <!-- <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+    crossorigin="anonymous"
+  /> -->
+  </head>
+  <body style="background-color: #ffb3c1">
+    <section style="background-color: #ffb3c1">
+      <div class="container py-2">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card shadow-2-strong" style="border-radius: 1rem">
+              <div class="card-body p-5 text-center">
+                <h1 class="mb-5">Login</h1>
+
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="typeEmailX-2">Email</label>
+                  <input
+                    type="email"
+                    id="typeEmailX-2"
+                    class="form-control form-control-lg"
+                  />
+                </div>
+
+                <div class="form-outline mb-4">
+                  <label class="form-label" for="typePasswordX-2">Password</label>
+                  <input
+                    type="password"
+                    id="typePasswordX-2"
+                    class="form-control form-control-lg"
+                  />
+                </div>
+
+                <!-- Checkbox -->
+                <div class="form-check d-flex justify-content-start mb-4">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="form1Example3"
+                  />
+                  <label class="form-check-label" for="form1Example3">
+                    Remember password
+                  </label>
+                </div>
+
+                <button class="btn btn-primary btn-lg btn-block" type="submit">
+                  Login
+                </button>
+                <div class="text-center w-100">
+                  <!-- Button trigger modal -->
+                  <span class="text-secondary">Forget Password?</span>
+                  <button
+                    type="button"
+                    class="btn text-primary"
+                    data-toggle="modal"
+                    data-target="#exampleModalScrollable"
+                  >
+                    Reset Password
+                  </button>
+
+                  <!-- Modal -->
+                  <div
+                    class="modal fade"
+                    id="exampleModalScrollable"
+                    tabindex="-1"
+                    role="dialog"
+                    aria-labelledby="exampleModalScrollableTitle"
+                    aria-hidden="true"
+                  >
+                    <div
+                      class="modal-dialog modal-dialog-scrollable"
+                      role="document"
+                    >
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <h5
+                            class="modal-title"
+                            id="exampleModalScrollableTitle"
+                          >
+                            Reset Password
+                          </h5>
+                          <button
+                            type="button"
+                            class="close"
+                            data-dismiss="modal"
+                            aria-label="Close"
+                          >
+                            <span aria-hidden="true">&times;</span>
+                          </button>
+                        </div>
+                        <div class="modal-body">
+                          <form>
+                            <div class="form-group">
+                              <label for="exampleInputEmail1">Password</label>
+                              <input
+                                type="password"
+                                class="form-control"
+                                id="exampleInputEmail1"
+                                aria-describedby="PasswordHelp"
+                                placeholder="Enter Password"
+                              />
+                            </div>
+                            <div class="form-group">
+                              <label for="exampleInputPassword1"
+                                >Confirm Password</label
+                              >
+                              <input
+                                type="password"
+                                class="form-control"
+                                id="exampleInputPassword1"
+                                placeholder="Enter Password"
+                              />
+                            </div>
+                            <div class="form-group form-check">
+                              <input
+                                type="checkbox"
+                                class="form-check-input"
+                                id="exampleCheck1"
+                              />
+                              <label
+                                class="form-check-label"
+                                for="exampleCheck1"
+                                >Check me out</label
+                              >
+                            </div>
+                            <!-- <button type="submit" class="btn btn-primary">Submit</button> -->
+                          </form>
+                        </div>
+                        <div class="modal-footer">
+                          <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-dismiss="modal"
+                          >
+                            Close
+                          </button>
+                          <button  type="button" class="btn btn-primary">
+                            Save changes
+                          </button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <hr class="my-4" />
+
+                <button
+                  class="btn btn-lg btn-block btn-primary"
+                  style="background-color: #590d22"
+                  type="submit"
+                >
+                  <i class="fab fa-google me-2"></i> Sign in with google
+                </button>
+                <button
+                  class="btn btn-lg btn-block btn-primary mb-2"
+                  style="background-color: #590d22"
+                  type="submit"
+                >
+                  <i class="fab fa-facebook-f me-2"></i> Sign in with facebook
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- jquery -->
+    <script src="assets/js/jquery-1.11.3.min.js"></script>
+    <!-- bootstrap -->
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <!-- count down -->
+    <script src="assets/js/jquery.countdown.js"></script>
+    <!-- isotope -->
+    <script src="assets/js/jquery.isotope-3.0.6.min.js"></script>
+    <!-- waypoints -->
+    <script src="assets/js/waypoints.js"></script>
+    <!-- owl carousel -->
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <!-- magnific popup -->
+    <script src="assets/js/jquery.magnific-popup.min.js"></script>
+    <!-- mean menu -->
+    <script src="assets/js/jquery.meanmenu.min.js"></script>
+    <!-- sticker js -->
+    <script src="assets/js/sticker.js"></script>
+    <!-- main js -->
+    <script src="assets/js/main.js"></script>
+    <!-- <script src="js/script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script> -->
+  </body>
+</html>
